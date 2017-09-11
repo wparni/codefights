@@ -21,7 +21,6 @@ public class AddBorder {
 
         newArray[0] = message;
         newArray[newArray.length - 1] = message;
-
         return newArray;
     }
 }
