@@ -25,13 +25,9 @@ public class IsIPv4Address {
             return false;
         }
 
-        if (count == 4)
-
-        {
+        if (count == 4) {
             return true;
-        } else
-
-        {
+        } else {
             return false;
         }
     }
