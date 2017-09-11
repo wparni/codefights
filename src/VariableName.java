@@ -1,5 +1,6 @@
 /**
- * Created by Arni on 2017-07-16.
+ Correct variable names consist only of Latin letters, digits and underscores and they can't start with a digit.
+ Check if the given string is a correct variable name.
  */
 public class VariableName {
 
