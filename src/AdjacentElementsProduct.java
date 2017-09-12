@@ -1,6 +1,6 @@
 /**Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.*/
 
-public class AdjacentElementsProduc {
+public class AdjacentElementsProduct {
 
     int adjacentElementsProduct(int[] inputArray) {
 
