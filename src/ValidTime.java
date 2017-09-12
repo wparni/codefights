@@ -1,3 +1,6 @@
+/**
+ * Check if the given string is a correct time representation of the 24-hour clock.
+ */
 
 public class ValidTime {
 
@@ -6,8 +9,7 @@ public class ValidTime {
 
         if (Integer.parseInt(splitTime[0]) >= 24) {
             return false;
-        }
-        else if (Integer.parseInt(splitTime[1]) >= 60) {
+        } else if (Integer.parseInt(splitTime[1]) >= 60) {
             return false;
         }
         return true;
